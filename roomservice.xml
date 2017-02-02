@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- vendor files -->
-	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" />
+	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0_work-3.4-cameratest" />
 
 	<!-- kernel -->
 	<project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974_old" revision="cm-13.0_work" />
 	<project name="Sony-Stock-CM/android_kernel_sony_msm8974_291" path="kernel/sony/msm8974" revision="new" />
+	<project name="nailyk-fr/android_kernel_aries_concept" path="kernel/sony/concept" revision="laos14" />
 
 	<!-- device specific -->
 	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_stock" />
-	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-13.0_stock" />
+	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="new-cm-13.0" />
 
 	<!-- device common -->
-	<project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_stock" />
+	<project name="Sony-Stock-CM//android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="new-cm-13.0" />
 
 	<!-- sony common -->
 	<project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />

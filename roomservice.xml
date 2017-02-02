@@ -6,7 +6,7 @@
 	<!-- kernel -->
 	<project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974_old" revision="cm-13.0_work" />
 	<project name="Sony-Stock-CM/android_kernel_sony_msm8974_291" path="kernel/sony/msm8974" revision="new" />
-	<project name="nailyk-fr/android_kernel_aries_concept" path="kernel/sony/concept" revision="laos14" />
+	<project name="nailyk-fr/android_kernel_sony_concept" path="kernel/sony/concept" revision="laos14" />
 
 	<!-- device specific -->
 	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_stock" />

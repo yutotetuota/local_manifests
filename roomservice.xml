@@ -13,7 +13,7 @@
 	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="new-cm-13.0" />
 
 	<!-- device common -->
-	<project name="Sony-Stock-CM//android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="new-cm-13.0" />
+	<project name="Sony-Stock-CM/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="new-cm-13.0" />
 
 	<!-- sony common -->
 	<project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />

@@ -26,6 +26,7 @@
 
 	<!-- common -->
 	<project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
+	<project name="LineageOS/android_external_stlport" path="external/stlport" />
 
 	<!-- temp
 		<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />

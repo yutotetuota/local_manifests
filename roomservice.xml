@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote  name="nailyk_private"
+           fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
+
 	<!-- vendor files -->
 	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="new-cm-14.1ter" />
 
@@ -36,5 +39,6 @@
 	 -->
 	<remove-project name="LineageOS/android_bootable_recovery" />
 	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" />
+	<project name="android_bootable_zip-recovery" path="external/zip-recovery" remote="nailyk_private" revision="cm-14.1" />
 
 </manifest>

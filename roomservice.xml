@@ -13,7 +13,7 @@
 
 	<!-- device specific -->
 	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-14.1_twrp" />
-	<project name="tomascus/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1" />
+	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1_twrp" />
 	<project name="nailyk-fr/android_device_sony_sirius" path="device/sony/sirius" revision="cm-14.1-new" />
 	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-14.1" />
 

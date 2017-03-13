@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote  name="nailyk_private"
-           fetch="ssh://git.nailyk.fr:2249/var/sites/git.fefe/" />
-
 	<!-- vendor files -->
-	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.1" />
+	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" />
 
 	<!-- kernel -->
 	<!--<project name="nailyk-fr/android_kernel_sony_msm8974.git" path="kernel/sony/msm8974_old" revision="selinux3" />-->
-	<project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.1" />
+	<project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974"  />
 	<!--<project name="nailyk-fr/android_kernel_sony_concept" path="kernel/sony/concept" revision="laos14" />-->
 
 	<!-- device specific -->
-	<project name="Sony-Stock-CM/android_device_sony_z3" path="device/sony/z3" revision="cm-14.1_twrp" />
-	<project name="Sony-Stock-CM/android_device_sony_z3c" path="device/sony/z3c" revision="cm-14.1_twrp" />
-	<project name="Sony-Stock-CM/android_device_sony_sirius" path="device/sony/sirius" revision="cm-14.1_twrp" />
-	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-14.1" />
+	<project name="Sony-Stock-CM/android_device_sony_z3" path="device/sony/z3" />
+	<project name="Sony-Stock-CM/android_device_sony_z3c" path="device/sony/z3c" />
+	<project name="Sony-Stock-CM/android_device_sony_sirius" path="device/sony/sirius" />
+	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" />
 
 	<!-- device common -->
-	<project name="Sony-Stock-CM/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-14.1" />
+	<project name="Sony-Stock-CM/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
 
 	<!-- sony common -->
 	<project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />
@@ -33,12 +30,5 @@
 	<!-- common -->
 	<project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
 	<project name="LineageOS/android_external_stlport" path="external/stlport" />
-
-	<!-- temp
-		<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
-	 -->
-	<remove-project name="LineageOS/android_bootable_recovery" />
-	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.1" />
-	<project name="android_bootable_zip-recovery" path="external/zip-recovery" remote="nailyk_private" revision="cm-14.1" />
 
 </manifest>

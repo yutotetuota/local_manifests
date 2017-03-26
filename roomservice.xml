@@ -11,6 +11,8 @@
 	<project name="Sony-Stock-CM/android_device_sony_z3c" path="device/sony/z3c" />
 	<project name="Sony-Stock-CM/android_device_sony_sirius" path="device/sony/sirius" />
 	<project name="Sony-Stock-CM/android_device_sony_castor_windy" path="device/sony/castor_windy" />
+
+	<!-- platform specific -->
 	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" />
 
 	<!-- device common -->

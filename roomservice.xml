@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote name="sony" fetch="https://github.com/" />
 	<!-- vendor files -->
-	<project name="Sony-Stock-CM/proprietary_vendor_sony" path="vendor/sony" />
+	<project name="yutotetuota/proprietary_vendor_sony" path="vendor/sony" remote="sony" />
 
 	<!-- kernel -->
-	<project name="Sony-Stock-CM/android_kernel_sony_msm8974" path="kernel/sony/msm8974"  />
+	<project name="yutotetuota/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="sony" />
 
 	<!-- device specific -->
-	<project name="Sony-Stock-CM/android_device_sony_z3" path="device/sony/z3" />
-	<project name="Sony-Stock-CM/android_device_sony_z3c" path="device/sony/z3c" />
-	<project name="Sony-Stock-CM/android_device_sony_sirius" path="device/sony/sirius" />
-	<project name="Sony-Stock-CM/android_device_sony_castor_windy" path="device/sony/castor_windy" />
+	<project name="yutotetuota/android_device_sony_z3" path="device/sony/z3" remote="sony" remote="sony" />
 
 	<!-- platform specific -->
-	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" />
+	<project name="Sony-Stock-CM/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="sony" />
 
 	<!-- device common -->
-	<project name="Sony-Stock-CM/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
+	<project name="yutotetuota/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="sony" />
 
 	<!-- sony common -->
-	<project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="github" />
-	<project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
-	<project name="LineageOS/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" />
-	<project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />	
-	<project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="github" />
+	<project name="yutotetuota/android_device_sony_common" path="device/sony/common" remote="sony" />
+	<project name="yutotetuota/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="sony" />
+	<project name="yutotetuota/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="sony" />
+	<project name="yutotetuota/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="sony" />	
+	<project name="yutotetuota/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="sony" />
 
 	<!-- qcom common -->
-	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+	<project name="yutotetuota/android_device_qcom_common" path="device/qcom/common" remote="sony" />
 
 	<!-- common -->
-	<project name="LineageOS/android_external_stlport" path="external/stlport" />
+	<project name="yutotetuota/android_external_stlport" path="external/stlport" remote="sony" />
 
 </manifest>

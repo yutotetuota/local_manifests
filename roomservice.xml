@@ -8,7 +8,7 @@
 	<project name="yutotetuota/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="sony" />
 
 	<!-- device specific -->
-	<project name="yutotetuota/android_device_sony_z3" path="device/sony/z3" remote="sony" remote="sony" />
+	<project name="yutotetuota/android_device_sony_z3" path="device/sony/z3" remote="sony" />
 
 	<!-- platform specific -->
 	<project name="yutotetuota/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="sony" />

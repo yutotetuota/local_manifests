@@ -5,7 +5,7 @@
 	<project name="yutotetuota/proprietary_vendor_sony" path="vendor/sony" remote="sony" />
 
 	<!-- kernel -->
-	<project name="yutotetuota/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="sony" />
+	<project name="yutotetuota/android_kernel_sony_shinano" path="kernel/sony/msm8974" remote="sony" />
 
 	<!-- device specific -->
 	<project name="yutotetuota/android_device_sony_z3" path="device/sony/z3" remote="sony" />

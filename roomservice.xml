@@ -11,7 +11,7 @@
 	<project name="yutotetuota/android_device_sony_yuga" path="device/sony/yuga" remote="sony" />
 
 	<!-- platform specific -->
-	<project name="yutotetuota/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony" />
+	<project name="yutotetuota/LOS16_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony" />
 
 	<!-- sony common -->
 	<project name="yutotetuota/android_device_sony_common" path="device/sony/common" remote="sony" />

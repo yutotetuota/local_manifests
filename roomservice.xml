@@ -9,10 +9,7 @@
 
 	<!-- platform specific -->
 	<project name="LineageOS/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony" />
-
-	<!-- device common -->
-	<project name="yutotetuota/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="sony" />
-
+	
 	<!-- sony common -->
 	<project name="LB-Blue/android_device_sony_common" path="device/sony/common" remote="sony" />
 

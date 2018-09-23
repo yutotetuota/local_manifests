@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/" />
-	<!-- vendor files -->
-	<project name="yutotetuota/proprietary_vendor_sony" path="vendor/sony" remote="sony" />
-
 	<!-- kernel -->
-	<project name="yutotetuota/android_kernel_sony_shinano" path="kernel/sony/msm8974" remote="sony" />
+	<project name="yutotetuota/SOL22_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="sony" />
 
 	<!-- device specific -->
-	<project name="yutotetuota/android_device_sony_z3" path="device/sony/z3" remote="sony" />
+	<project name="yutotetuota/android_device_sony_gaga" path="device/sony/gaga" remote="sony" />
 
 	<!-- platform specific -->
-	<project name="yutotetuota/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="sony" />
+	<project name="LineageOS/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="sony" />
 
 	<!-- device common -->
 	<project name="yutotetuota/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="sony" />
 
 	<!-- sony common -->
-	<project name="yutotetuota/android_device_sony_common" path="device/sony/common" remote="sony" />
-	<project name="yutotetuota/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="sony" />
-	<project name="yutotetuota/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="sony" />
-	<project name="yutotetuota/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="sony" />	
-	<project name="yutotetuota/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="sony" />
+	<project name="LB-Blue/android_device_sony_common" path="device/sony/common" remote="sony" />
 
 	<!-- qcom common -->
 	<project name="yutotetuota/android_device_qcom_common" path="device/qcom/common" remote="sony" />
 
 	<!-- common -->
 	<project name="yutotetuota/android_external_stlport" path="external/stlport" remote="sony" />
+	<project name="LB-Blue/android_external_sepolicy" path="external/sepolicy" remote="sony" />
 
 </manifest>

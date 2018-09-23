@@ -21,7 +21,7 @@
 
 	<!-- common -->
 	<project name="yutotetuota/android_external_stlport" path="external/stlport" remote="sony" />
-	<remove-project name="LineageOS/android_external_sepolicy" path="external/sepolicy" />
+	<remove-project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp />
 	<project name="LB-Blue/android_external_sepolicy" path="external/sepolicy" remote="sony" />
 
 </manifest>

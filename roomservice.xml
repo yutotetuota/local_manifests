@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/" />
+	<!-- vendor files -->
+	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="sony" />
+
 	<!-- kernel -->
 	<project name="yutotetuota/SOL22_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="sony" />
 

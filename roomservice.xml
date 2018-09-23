@@ -22,5 +22,9 @@
 	<!-- common -->
 	<remove-project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
 	<project name="LB-Blue/android_external_sepolicy" path="external/sepolicy" remote="sony" />
+	<remove-project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom,qcom_media" revision="cm-12.1-caf-8960" />
+	<project path="hardware/qcom/media-caf/msm8960" name="LB-Blue/android_hardware_qcom_media" revision="cm-12.1-caf-8960" />
+	<remove-project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
+	<project path="hardware/qcom/display-caf/msm8960" name="LB-Blue/android_hardware_qcom_display" revision="cm-12.1-caf-8960" />
 
 </manifest>

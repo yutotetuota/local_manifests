@@ -20,8 +20,8 @@
 	<project name="yutotetuota/android_device_qcom_common" path="device/qcom/common" remote="sony" />
 
 	<!-- common -->
+	<remove-project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
 	<project name="yutotetuota/android_external_stlport" path="external/stlport" remote="sony" />
-	<remove-project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp />
 	<project name="LB-Blue/android_external_sepolicy" path="external/sepolicy" remote="sony" />
 
 </manifest>
